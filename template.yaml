@@ -358,7 +358,7 @@ parameters:
   required: true
 - description: Generic build trigger secret
   displayName: Generic Trigger
-  from: '[a-zA-Z0-9]{8}'
+  from: '[a-zA-Z0-9]{4}'
   generate: expression
   name: GENERIC_TRIGGER_SECRET
   required: true
