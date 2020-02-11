@@ -6,7 +6,7 @@ console.log("Kubia server starting...");
 var handler = function(request, response) {
   console.log("Received request from " + request.connection.remoteAddress);
   response.writeHead(200);
-  response.end("VERZIJA NOVA x1 You've hit " + os.hostname() + "\n");
+  response.end("VERZIJA test-poc You've hit " + os.hostname() + "\n");
 };
 
 var www = http.createServer(handler);
