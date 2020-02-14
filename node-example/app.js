@@ -7,7 +7,7 @@ var handler = function(request, response) {
   var datetime = new Date();
   console.log("Received request from " + request.connection.remoteAddress);
   response.writeHead(200);
-  response.end("VERZIJA 66!!666 test-poc You've hit " + os.hostname() + "\n"+datetime);
+  response.end("VERZIJA 7777 test-poc You've hit " + os.hostname() + "\n"+datetime);
 };
 
 var www = http.createServer(handler);
